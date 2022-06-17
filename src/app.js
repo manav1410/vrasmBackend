@@ -27,7 +27,7 @@ if (result.error)
 /**
  * Express Server
  */
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 5000;
 var server = app.listen(PORT, function () {
     console.log('Example app listening on port ' + PORT + '!');
 });
